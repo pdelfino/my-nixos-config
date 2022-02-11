@@ -48,8 +48,8 @@
     wget firefox emacs sbcl git
     htop xorg.xkill fish curl gzip zip unzip tldr pcmanfm nitrogen
     #pkgs.gnome3.gnome-tweaks
-    wl-clipboard xclip xsel libsForQt5.kdenlive obs-studio
-    obs-wlrobs haskellPackages.osdkeys simplescreenrecorder
+    wl-clipboard xclip xsel libsForQt5.kdenlive 
+     haskellPackages.osdkeys simplescreenrecorder
     kooha
     cloc gnupg pass pinentry-gtk2
     ispell gnumake sqlitebrowser zeal
@@ -57,7 +57,7 @@
     partition-manager
     skype
     marble kontact korganizer kaddressbook kleopatra kmail konversation digikam kcalc
-    okular spectacle ccl audacity stow libsForQt5.kmail-account-wizard thunderbird rescuetime wakatime
+    okular spectacle ccl audacity stow libsForQt5.kmail-account-wizard thunderbird rescuetime wakatime haskellPackages.arbtt gnomeExtensions.arbtt-stats
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
