@@ -58,6 +58,12 @@
     skype
     marble kontact korganizer kaddressbook kleopatra kmail konversation digikam kcalc
     okular spectacle ccl audacity stow libsForQt5.kmail-account-wizard thunderbird rescuetime wakatime haskellPackages.arbtt gnomeExtensions.arbtt-stats
+    postman
+    discord
+    cabal-install ghc stack haskell-language-server
+    python38
+    insomnia
+    maven jdk8 jetbrains.idea-community
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
