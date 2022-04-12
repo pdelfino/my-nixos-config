@@ -64,6 +64,7 @@
     python38
     insomnia
     maven jdk8 jetbrains.idea-community
+    foxitreader
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
