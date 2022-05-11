@@ -65,6 +65,11 @@
     insomnia
     maven jdk8 jetbrains.idea-community
     foxitreader
+    ripgrep
+    zoom-us
+    leiningen
+    jameica
+    clojure
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
