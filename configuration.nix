@@ -70,6 +70,13 @@
     leiningen
     jameica
     clojure
+    dropbox
+    dropbox-cli
+    emacs27Packages.dropbox
+    nodejs
+    gtypist
+    gnomeExtensions.material-shell
+    gnome.gnome-tweaks
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
