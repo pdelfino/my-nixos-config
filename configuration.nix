@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./hosts.nix
+      ./docker.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -77,6 +78,8 @@
     gtypist
     gnomeExtensions.material-shell
     gnome.gnome-tweaks
+    xclip
+    docker-compose
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -144,7 +147,7 @@
   #services.xserver.desktopManager.plasma5.enable = true;
 
   # Virtualization services
-  virtualisation.docker.enable = false;
+  virtualisation.docker.enable = true;
   virtualisation.virtualbox.host.enable = true;
   
   # Define a user account. Don't forget to set a password with â€˜passwdâ€™.
