@@ -80,6 +80,10 @@
     gnome.gnome-tweaks
     xclip
     docker-compose
+    fira-code fira-code-symbols
+    vuze
+    traceroute
+    dig
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
