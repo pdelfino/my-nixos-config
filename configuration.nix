@@ -84,6 +84,8 @@
     vuze
     traceroute
     dig
+    slack
+    nodePackages.firebase-tools
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
