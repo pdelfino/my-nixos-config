@@ -77,8 +77,8 @@
     nodejs
     gtypist
     gnomeExtensions.material-shell
-    gnome.gnome-tweaks
-    xclip
+    #gnome.gnome-tweaks
+    autokey
     docker-compose
     fira-code fira-code-symbols
     vuze
@@ -86,6 +86,9 @@
     dig
     slack
     nodePackages.firebase-tools
+    xdotool
+    xorg.xwininfo
+    google-chrome
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
